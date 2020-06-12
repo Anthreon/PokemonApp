@@ -155,7 +155,7 @@ body{
   background-size: cover;
   animation: shake 1s;
 
-  /* When the animation is finished, start again */
+  
   animation-iteration-count: infinite;
   
   
@@ -164,7 +164,7 @@ body{
 .PokeballImage:hover{
   transform: scale(1.1);
   cursor: pointer;
-  transform: ;
+  
   
 }
 
