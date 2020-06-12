@@ -1,0 +1,248 @@
+*, html {
+  margin:0;
+  padding:0;
+  scroll-behavior: smooth;
+  
+  
+}
+
+
+@media screen and (min-width: 300px) {
+  .pokemonHeaderTitle {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    color:  #1c4296;
+    font-size: 3.2vw;
+    margin-top: 26%;
+    margin-left: 2%;
+  }
+
+  
+.pokemonTitle{
+  font-family: 'Pokemon','Courier New', Courier, monospace;
+  font-size: 8vw;
+  color:  #111111;
+  
+  
+}
+
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+  .pokemonHeaderTitle {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    color:  #1c4296;
+    font-size: 3.2vw;
+    margin-top: 15%;
+    margin-left: 2%;
+  }
+
+  
+.pokemonTitle{
+  font-family: 'Pokemon','Courier New', Courier, monospace;
+  font-size: 8vw;
+  color:  #111111;
+  
+  
+  
+}
+
+}
+
+@media screen and (min-width: 601px) {
+  .pokemonHeaderTitle {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    color:  #1c4296;
+    font-size: 2.5vw;
+    margin-top: 2%;
+    margin-left: 2%;
+    
+
+  }
+
+  
+  .pokemonTitle{
+    font-family: 'Pokemon','Courier New', Courier, monospace;
+    font-size: 4vw;
+    color:  #111111;
+   
+  
+}
+
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  
+}
+
+@font-face {
+  font-family: 'Pokemon';
+  src:  url('fonts/Pokemon\ Hollow.ttf') format('truetype')
+     
+}
+
+body{
+  font-family: 'Pokemon','Courier New', Courier, monospace;
+  background-color: rgba(255, 255, 255, 0.933);
+  
+}
+
+
+.pokemonImage{
+  transform: scale(2);
+  border-style: solid;
+  margin-top: 50px;
+  border-radius: 90%;
+  height: auto;
+  background-color: yellow;
+  
+}
+
+
+.headerContainer{
+  position: relative;
+  background: url('images/Pikachu.png') no-repeat center center;
+  background-size: cover;
+  position: relative;
+  border-bottom: solid;
+  height: 300px;
+  
+  
+}
+
+.pokemonHeaderTitle {
+  font-family: 'Pokemon','Courier New', Courier, monospace;
+  line-height: 300px;
+  text-align: justify;  
+}
+
+
+@keyframes shake {
+ 
+  0% { cursor: pointer; transform: translate(1px, 1px) rotate(0deg) scale(1.1); }
+  10% { cursor: pointer;  transform: translate(-1px, -2px) rotate(-1deg) scale(1.1); }
+  20% { cursor: pointer; transform: translate(-3px, 0px) rotate(1deg) scale(1.1); }
+  30% { cursor: pointer; transform: translate(3px, 2px) rotate(0deg) scale(1.1); }
+  40% { cursor: pointer; transform: translate(1px, -1px) rotate(1deg) scale(1.1); }
+  50% { cursor: pointer; transform: translate(-1px, 2px) rotate(-1deg) scale(1.1); }
+  60% { cursor: pointer; transform: translate(-3px, 1px) rotate(0deg) scale(1.1); }
+  70% { cursor: pointer; transform: translate(3px, 1px) rotate(-1deg) scale(1.1); }
+  80% { cursor: pointer; transform: translate(-1px, -1px) rotate(1deg); }
+  90% { cursor: pointer; transform: translate(1px, 2px) rotate(0deg); }
+  100% { cursor: pointer;  transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+#PokeballImage { 
+  margin-top: 40px;
+  height: 150px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 90%;
+  border-style: solid;
+  background: url('images/Pokeball.png') no-repeat center center;
+  background-size: cover;
+  animation: shake 1s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+  
+  
+} 
+
+.PokeballImage:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  transform: ;
+  
+}
+
+
+.show{
+  display:block;
+  
+  
+}
+
+.hidden{
+  display:none;
+  
+}
+
+.panel {
+  position: relative;
+  width: 100%;
+  height: 90px;
+  background-color: grey;
+  text-align: center;
+  margin-top: 30px;
+  
+  
+
+
+}
+
+.panelItems{
+  display: inline-block;
+  margin-left: 25px;
+  font-size: 30px;
+  color:#111111;
+  height: 80%;
+  width: 120px;
+  border-style: solid;
+  margin-top: 35px;
+  line-height: 72px;
+  font-weight: bolder;
+  border-radius: 60%;
+  background-color: rgba(58, 248, 10, 0.295);
+  transition: all .5s ease-in-out;
+  font-size: 20px;
+  font-weight: bolder;
+  
+  
+  
+}
+
+.panelItems:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: #ffdb3a;
+  
+  
+}
+
+
+
+.hiddenPokemon {
+  display: none;
+  
+}
+
+
+
+.pokemonContainer {
+  position: relative;
+  display: initial;
+  
+  
+}
+
+.hideContainer {
+  display: none;
+  
+}
+
+.outer{
+  margin-bottom: 90px;
+}
